@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Páginas Pretas Classificados</title>
+    <style>
+        /* ESTILOS BASE */
+        body { font-family: Arial, sans-serif; margin: 0; background-color: #f4f4f4; color: #333; }
+        :root { --cor-primaria: #000000; --cor-secundaria: #FFD700; --cor-fundo: #FFFFFF; --cor-texto: #333;}
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        
+        /* ESTILOS DO CABEÇALHO */
+        header { background-color: var(--cor-fundo); padding: 15px 30px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        header .logo { font-size: 24px; font-weight: bold; color: var(--cor-primaria); text-decoration: none; }
+        header nav a { margin: 0 15px; text-decoration: none; color: var(--cor-texto); font-weight: bold; }
+
+        /* ESTILOS DO RODAPÉ */
+        footer { background-color: var(--cor-primaria); color: var(--cor-fundo); padding: 40px 20px; }
+        .footer-container { display: flex; justify-content: space-around; flex-wrap: wrap; }
+        .footer-column { width: 200px; margin-bottom: 20px; }
+        .footer-column h4 { color: var(--cor-secundaria); }
+        .footer-column a { color: var(--cor-fundo); text-decoration: none; display: block; margin-bottom: 8px; }
+        .footer-bottom { text-align: center; margin-top: 30px; border-top: 1px solid #444; padding-top: 20px; }
+
+        /* Estilos do Contato */
+        .contact-section { background: var(--cor-fundo); padding: 40px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); max-width: 700px; margin: 30px auto; }
+        .contact-section h1 { text-align: center; color: var(--cor-primaria); margin-bottom: 30px; }
+        .contact-form label { display: block; margin-bottom: 8px; font-weight: bold; color: var(--cor-primaria); }
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box; /* Garante que padding e border sejam incluídos na largura total */
+        }
+        .contact-form textarea { resize: vertical; min-height: 120px; }
+        .contact-form button {
+            width: 100%;
+            padding: 15px;
+            background: var(--cor-primaria);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        .contact-form button:hover { background: #333; }
+        .contact-info { text-align: center; margin-top: 40px; }
+        .contact-info p { margin-bottom: 10px; font-size: 1.1em; }
+        .contact-info a { color: var(--cor-primaria); text-decoration: none; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Páginas Pretas</a>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="marketplace.html">Marketplace</a>
+            <a href="b2b.html">Para Empresas</a>
+            <a href="blog.html">Blog</a>
+            <a href="planos.html">Planos</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="contact-section">
+            <h1>Fale Conosco</h1>
+            <p style="text-align: center; margin-bottom: 30px;">Tem alguma dúvida, sugestão ou quer saber mais sobre nossos serviços? Envie uma mensagem!</p>
+            <form class="contact-form">
+                <label for="name">Seu Nome</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Seu Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Assunto</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="message">Sua Mensagem</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+            <div class="contact-info">
+                <p>Ou entre em contato diretamente:</p>
+                <p>Email: <a href="mailto:contato@paginaspretas.com.br">contato@paginaspretas.com.br</a></p>
+                <p>Telefone: <a href="tel:+5521987654321">(21) 98765-4321</a></p>
+                <p>Endereço: Rua da Liberdade, 123, Centro - Rio de Janeiro, RJ</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h4>Páginas Pretas</h4>
+                <a href="sobre.html">Sobre Nós</a>
+                <a href="blog.html">Blog</a>
+                <a href="contato.html">Contato</a>
+            </div>
+            <div class="footer-column">
+                <h4>Para Empreendedores</h4>
+                <a href="planos.html">Nossos Planos</a>
+                <a href="contato.html">Cadastre-se</a>
+            </div>
+            <div class="footer-column">
+                <h4>Para Empresas (B2B)</h4>
+                <a href="b2b.html">Parcerias</a>
+                <a href="contato.html">Agende uma Reunião</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Páginas Pretas Classificados. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artigo - Páginas Pretas Classificados</title>
+    <style>
+        /* ESTILOS BASE */
+        body { font-family: Arial, sans-serif; margin: 0; background-color: #f4f4f4; color: #333; }
+        :root { --cor-primaria: #000000; --cor-secundaria: #FFD700; --cor-fundo: #FFFFFF; --cor-texto: #333;}
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        
+        /* ESTILOS DO CABEÇALHO */
+        header { background-color: var(--cor-fundo); padding: 15px 30px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        header .logo { font-size: 24px; font-weight: bold; color: var(--cor-primaria); text-decoration: none; }
+        header nav a { margin: 0 15px; text-decoration: none; color: var(--cor-texto); font-weight: bold; }
+
+        /* ESTILOS DO RODAPÉ */
+        footer { background-color: var(--cor-primaria); color: var(--cor-fundo); padding: 40px 20px; }
+        .footer-container { display: flex; justify-content: space-around; flex-wrap: wrap; }
+        .footer-column { width: 200px; margin-bottom: 20px; }
+        .footer-column h4 { color: var(--cor-secundaria); }
+        .footer-column a { color: var(--cor-fundo); text-decoration: none; display: block; margin-bottom: 8px; }
+        .footer-bottom { text-align: center; margin-top: 30px; border-top: 1px solid #444; padding-top: 20px; }
+
+        /* Estilos do Artigo */
+        .article-container { max-width: 800px; background: var(--cor-fundo); padding: 40px; border-radius: 8px; margin: 20px auto; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .article-container h1 { color: var(--cor-primaria); margin-bottom: 10px; font-size: 2.2em; }
+        .article-container em { display: block; margin-bottom: 20px; color: #777; font-style: normal; font-size: 0.9em;}
+        .article-container img { width: 100%; height: auto; border-radius: 8px; margin-bottom: 30px; }
+        .article-container p { line-height: 1.8; margin-bottom: 20px; text-align: justify;}
+        .article-container h2 { color: var(--cor-primaria); margin-top: 30px; border-bottom: 1px solid #eee; padding-bottom: 10px; font-size: 1.5em; }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Páginas Pretas</a>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="marketplace.html">Marketplace</a>
+            <a href="b2b.html">Para Empresas</a>
+            <a href="blog.html">Blog</a>
+            <a href="planos.html">Planos</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <div class="article-container">
+            <h1>5 Dicas de Finanças para Afroempreendedores</h1>
+            <p><em>Por Equipe PPC - 27 de Junho de 2025</em></p>
+            <img src="https://images.pexels.com/photos/5668473/pexels-photo-5668473.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Finanças para Empreendedores">
+            <p>Manter a saúde financeira de um negócio é um dos maiores desafios para qualquer empreendedor. Para a comunidade negra, que frequentemente enfrenta barreiras estruturais e históricas, essa tarefa pode ser ainda mais complexa. No entanto, com planejamento e disciplina, é possível construir um futuro financeiro sólido para seu empreendimento. Aqui estão 5 dicas essenciais que podem ajudar afroempreendedores a prosperar:</p>
+
+            <h2>1. Separe as Finanças Pessoais das Empresariais</h2>
+            <p>Este é o primeiro e mais crucial passo para a saúde financeira de qualquer negócio. Ter contas bancárias separadas para você e sua empresa não só facilita o controle do fluxo de caixa, mas também simplifica a declaração de impostos e a análise de desempenho do negócio. Misturar as finanças pode levar a uma falsa percepção de lucro e dificultar a identificação de onde o dinheiro realmente está sendo gasto ou de onde vem.</p>
+
+            <h2>2. Faça um Planejamento Financeiro Detalhado</h2>
+            <p>Um bom planejamento financeiro envolve a criação de um orçamento, a projeção de receitas e despesas, e a definição de metas financeiras claras. Saber exatamente quanto você tem, quanto gasta e quanto precisa para alcançar seus objetivos é fundamental. Utilize ferramentas como planilhas ou softwares de gestão para monitorar tudo de perto. Revise seu planejamento regularmente e ajuste-o conforme as necessidades do seu negócio.</p>
+
+            <h2>3. Use a Tecnologia a seu Favor</h2>
+            <p>A tecnologia oferece uma gama de ferramentas que podem simplificar a gestão financeira. Aplicativos de gestão financeira, plataformas de pagamento online e softwares de contabilidade podem automatizar tarefas, fornecer relatórios detalhados e ajudar você a tomar decisões mais informadas. Pesquise e encontre as soluções que melhor se adaptam ao tamanho e às necessidades do seu negócio.</p>
+            
+            <h2>4. Crie uma Reserva de Emergência</h2>
+            <p>Imprevistos acontecem, e ter uma reserva de emergência é vital para a sobrevivência do seu negócio em tempos de crise. Esse fundo deve ser suficiente para cobrir pelo menos três a seis meses de despesas operacionais. Ele proporcionará segurança e permitirá que você tome decisões estratégicas sem a pressão de uma situação financeira apertada.</p>
+
+            <h2>5. Busque Conhecimento e Apoio</h2>
+            <p>O mundo dos negócios está em constante evolução, e a educação financeira é um processo contínuo. Participe de workshops, seminários e cursos sobre gestão financeira. Além disso, procure mentorias e redes de apoio que conectem empreendedores negros. A troca de experiências e o acesso a informações especializadas podem ser decisivos para o sucesso do seu empreendimento.</p>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h4>Páginas Pretas</h4>
+                <a href="sobre.html">Sobre Nós</a>
+                <a href="blog.html">Blog</a>
+                <a href="contato.html">Contato</a>
+            </div>
+            <div class="footer-column">
+                <h4>Para Empreendedores</h4>
+                <a href="planos.html">Nossos Planos</a>
+                <a href="contato.html">Cadastre-se</a>
+            </div>
+            <div class="footer-column">
+                <h4>Para Empresas (B2B)</h4>
+                <a href="b2b.html">Parcerias</a>
+                <a href="contato.html">Agende uma Reunião</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Páginas Pretas Classificados. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>

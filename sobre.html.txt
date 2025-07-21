@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nós - Páginas Pretas Classificados</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; background-color: #f4f4f4; color: #333; }
+        :root { --cor-primaria: #000000; --cor-secundaria: #FFD700; --cor-fundo: #FFFFFF; --cor-texto: #333;}
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        header { background-color: var(--cor-fundo); padding: 15px 30px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        header .logo { font-size: 24px; font-weight: bold; color: var(--cor-primaria); text-decoration: none; }
+        header nav a { margin: 0 15px; text-decoration: none; color: var(--cor-texto); font-weight: bold; }
+        footer { background-color: var(--cor-primaria); color: var(--cor-fundo); padding: 40px 20px; }
+        .footer-container { display: flex; justify-content: space-around; flex-wrap: wrap; }
+        .footer-column { width: 200px; margin-bottom: 20px; }
+        .footer-column h4 { color: var(--cor-secundaria); }
+        .footer-column a { color: var(--cor-fundo); text-decoration: none; display: block; margin-bottom: 8px; }
+        .footer-bottom { text-align: center; margin-top: 30px; border-top: 1px solid #444; padding-top: 20px; }
+
+        .about-section { background: var(--cor-fundo); padding: 40px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); margin-top: 20px; }
+        .about-section h1 { text-align: center; color: var(--cor-primaria); margin-bottom: 20px; }
+        .about-section p { line-height: 1.8; margin-bottom: 15px; }
+        .about-image { text-align: center; margin: 30px 0; }
+        .about-image img { max-width: 100%; height: auto; border-radius: 8px; }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Páginas Pretas</a>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="marketplace.html">Marketplace</a>
+            <a href="b2b.html">Para Empresas</a>
+            <a href="blog.html">Blog</a>
+            <a href="planos.html">Planos</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="about-section">
+            <h1>Sobre as Páginas Pretas Classificados</h1>
+            <p>As Páginas Pretas Classificados nasceram do desejo de criar uma plataforma poderosa e inclusiva para impulsionar o empreendedorismo negro no Brasil. Acreditamos no potencial transformador da economia afro e na importância de dar visibilidade e oportunidades aos negócios geridos por pessoas negras.</p>
+            <p>Nossa missão é conectar consumidores que buscam diversidade e qualidade com empreendedores negros talentosos. Queremos ser o ponto de encontro onde a inovação, a cultura e a excelência se unem, fortalecendo a comunidade e gerando impacto social e econômico positivo.</p>
+            <div class="about-image">
+                <img src="https://images.pexels.com/photos/3183151/pexels-photo-3183151.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Equipe Páginas Pretas">
+            </div>
+            <p>Desde moda, beleza e gastronomia até serviços especializados, as Páginas Pretas são um catalisador para o crescimento, a colaboração e a celebração da riqueza cultural e produtiva da nossa comunidade. Junte-se a nós e faça parte dessa revolução!</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h4>Páginas Pretas</h4>
+                <a href="sobre.html">Sobre Nós</a>
+                <a href="blog.html">Blog</a>
+                <a href="contato.html">Contato</a>
+            </div>
+            <div class="footer-column">
+                <h4>Para Empreendedores</h4>
+                <a href="planos.html">Nossos Planos</a>
+                <a href="contato.html">Cadastre-se</a>
+            </div>
+            <div class="footer-column">
+                <h4>Para Empresas (B2B)</h4>
+                <a href="b2b.html">Parcerias</a>
+                <a href="contato.html">Agende uma Reunião</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Páginas Pretas Classificados. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>

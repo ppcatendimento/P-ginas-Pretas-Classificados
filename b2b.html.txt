@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Empresas - Páginas Pretas Classificados</title>
+    <style>
+        /* ESTILOS (Reutilizando a base e adicionando novos) */
+        body { font-family: Arial, sans-serif; margin: 0; background-color: #f4f4f4; color: #333; }
+        :root { --cor-primaria: #000000; --cor-secundaria: #FFD700; --cor-fundo: #FFFFFF; --cor-texto: #333;}
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        header { background-color: var(--cor-fundo); padding: 15px 30px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        header .logo { font-size: 24px; font-weight: bold; color: var(--cor-primaria); text-decoration: none; }
+        header nav a { margin: 0 15px; text-decoration: none; color: var(--cor-texto); font-weight: bold; }
+        footer { background-color: var(--cor-primaria); color: var(--cor-fundo); padding: 40px 20px; }
+        .footer-container { display: flex; justify-content: space-around; flex-wrap: wrap; }
+        .footer-column { width: 200px; margin-bottom: 20px; }
+        .footer-column h4 { color: var(--cor-secundaria); }
+        .footer-column a { color: var(--cor-fundo); text-decoration: none; display: block; margin-bottom: 8px; }
+        .footer-bottom { text-align: center; margin-top: 30px; border-top: 1px solid #444; padding-top: 20px; }
+
+        /* Estilos B2B */
+        .b2b-hero { background: var(--cor-primaria); color: white; text-align: center; padding: 80px 20px; }
+        .b2b-hero h1 { color: var(--cor-secundaria); font-size: 3em; margin-bottom: 15px; }
+        .b2b-hero p { font-size: 1.2em; max-width: 800px; margin: 0 auto; }
+
+        .benefits-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px; align-items: flex-start; margin-top: 40px; background: var(--cor-fundo); padding: 40px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .benefits-grid h2 { color: var(--cor-primaria); margin-top: 0; border-bottom: 2px solid var(--cor-secundaria); padding-bottom: 10px; margin-bottom: 20px; }
+        .benefits-grid p { margin-bottom: 15px; line-height: 1.7; }
+        .benefits-grid strong { color: var(--cor-primaria); }
+        .benefits-grid img { max-width: 150px; height: auto; margin-top: 20px; display: block; } /* Selo */
+
+        .form-section { background: #EFEFEF; padding: 40px; border-radius: 8px; }
+        .form-section h3 { color: var(--cor-primaria); margin-top: 0; margin-bottom: 15px; }
+        .form-section p { margin-bottom: 25px; color: #555; }
+        .form-section input[type="text"],
+        .form-section input[type="email"],
+        .form-section textarea {
+            width: 100%; padding: 12px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box;
+        }
+        .form-section button {
+            width:100%; padding: 15px; background: var(--cor-primaria); color: #fff; border:none; border-radius: 5px; font-size: 18px; font-weight: bold; cursor: pointer; transition: background 0.3s ease;
+        }
+        .form-section button:hover { background: #333; }
+
+        @media (max-width: 768px) {
+            .b2b-hero h1 { font-size: 2.5em; }
+            .benefits-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Páginas Pretas</a>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="marketplace.html">Marketplace</a>
+            <a href="b2b.html">Para Empresas</a>
+            <a href="blog.html">Blog</a>
+            <a href="planos.html">Planos</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <section class="b2b-hero">
+            <h1>Sua Empresa + Nossa Comunidade = Impacto Real</h1>
+            <p>Contrate fornecedores negros e fortaleça suas metas de ESG (Ambiental, Social e Governança).</p>
+        </section>
+        <div class="container">
+            <div class="benefits-grid">
+                <div>
+                    <h2>Por que contratar fornecedores pretos?</h2>
+                    <p><strong>Diversidade e Inovação:</strong> Ao escolher fornecedores negros, sua empresa acessa um ecossistema de soluções criativas, perspectivas únicas e inovações que podem impulsionar seu negócio de maneiras surpreendentes.</p>
+                    <p><strong>Impacto Social Genuíno:</strong> Cada parceria gera renda, cria empregos e fomenta o desenvolvimento econômico em comunidades historicamente marginalizadas, combatendo a desigualdade sistêmica e construindo um futuro mais equitativo.</p>
+                    <p><strong>Fortalecimento de Marca e ESG:</strong> Associe sua empresa a uma causa relevante e valorizada pelo mercado. Demonstre seu compromisso com a responsabilidade social corporativa, melhore sua reputação e atraia talentos e consumidores alinhados com valores de diversidade e inclusão.</p>
+                    <p><strong>Qualidade e Compromisso:</strong> Nossos empreendedores são dedicados, resilientes e oferecem produtos e serviços de alta qualidade, prontos para atender às demandas do mercado corporativo.</p>
+                    <img src="https://logodownload.org/wp-content/uploads/2019/08/sebrae-logo-1.png" alt="Selo Sebrae" style="height: 80px; margin-top: 20px;">
+                    <img src="https://www.ibracem.org.br/wp-content/uploads/2021/03/LOGO-PACTO-GLOBAL-ONU-Brasil-1.png" alt="Selo Pacto Global ONU" style="height: 80px; margin-left: 20px;">
+                </div>
+                <div class="form-section">
+                    <h3>Agende uma Reunião</h3>
+                    <p>Vamos conversar sobre como podemos colaborar e quais as melhores soluções para as necessidades da sua empresa.</p>
+                    <form>
+                        <input type="text" placeholder="Seu Nome Completo" required>
+                        <input type="email" placeholder="Email Corporativo" required>
+                        <input type="text" placeholder="Nome da Empresa" required>
+                        <input type="text" placeholder="Cargo na Empresa">
+                        <textarea placeholder="Fale um pouco sobre suas necessidades..." rows="4"></textarea>
+                        <button type="submit">Enviar Pedido de Contato</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h4>Páginas Pretas</h4>
+                <a href="sobre.html">Sobre Nós</a>
+                <a href="blog.html">Blog</a>
+                <a href="contato.html">Contato</a>
+            </div>
+            <div class="footer-column">
+                <h4>Para Empreendedores</h4>
+                <a href="planos.html">Nossos Planos</a>
+                <a href="contato.html">Cadastre-se</a>
+            </div>
+            <div class="footer-column">
+                <h4>Para Empresas (B2B)</h4>
+                <a href="b2b.html">Parcerias</a>
+                <a href="contato.html">Agende uma Reunião</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Páginas Pretas Classificados. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>

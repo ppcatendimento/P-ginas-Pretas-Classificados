@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Páginas Pretas Classificados</title>
+    <style>
+        /* ESTILOS BASE */
+        body { font-family: Arial, sans-serif; margin: 0; background-color: #f4f4f4; color: #333; }
+        :root { --cor-primaria: #000000; --cor-secundaria: #FFD700; --cor-fundo: #FFFFFF; --cor-texto: #333;}
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        
+        /* ESTILOS DO CABEÇALHO */
+        header { background-color: var(--cor-fundo); padding: 15px 30px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        header .logo { font-size: 24px; font-weight: bold; color: var(--cor-primaria); text-decoration: none; }
+        header nav a { margin: 0 15px; text-decoration: none; color: var(--cor-texto); font-weight: bold; }
+
+        /* ESTILOS DO RODAPÉ */
+        footer { background-color: var(--cor-primaria); color: var(--cor-fundo); padding: 40px 20px; }
+        .footer-container { display: flex; justify-content: space-around; flex-wrap: wrap; }
+        .footer-column { width: 200px; margin-bottom: 20px; }
+        .footer-column h4 { color: var(--cor-secundaria); }
+        .footer-column a { color: var(--cor-fundo); text-decoration: none; display: block; margin-bottom: 8px; }
+        .footer-bottom { text-align: center; margin-top: 30px; border-top: 1px solid #444; padding-top: 20px; }
+
+        /* Estilos do Blog */
+        .articles-list { display: grid; gap: 30px; margin-top: 30px; }
+        .article-preview { background: var(--cor-fundo); padding: 25px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); transition: transform 0.2s, box-shadow 0.2s; }
+        .article-preview:hover { transform: translateY(-5px); box-shadow: 0 5px 15px rgba(0,0,0,0.2); }
+        .article-preview a { text-decoration: none; color: inherit; display: block; }
+        .article-preview h2 { margin-top: 0; color: var(--cor-primaria); font-size: 1.8em; }
+        .article-preview p { color: #666; line-height: 1.6; }
+        .article-preview span { font-weight: bold; color: var(--cor-secundaria); margin-top: 10px; display: inline-block; }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Páginas Pretas</a>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="marketplace.html">Marketplace</a>
+            <a href="b2b.html">Para Empresas</a>
+            <a href="blog.html">Blog</a>
+            <a href="planos.html">Planos</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+    <main class="container">
+        <h1>Blog e Notícias</h1>
+        <div class="articles-list">
+            <div class="article-preview">
+                <a href="artigo.html">
+                    <h2>5 Dicas de Finanças para Afroempreendedores</h2>
+                    <p>Aprenda a organizar suas finanças para garantir a sustentabilidade do seu negócio, desde a separação de contas até o uso inteligente da tecnologia.</p>
+                    <span>Leia Mais</span>
+                </a>
+            </div>
+            <div class="article-preview">
+                <a href="artigo.html">
+                    <h2>História de Sucesso: Como a 'Beleza Natural' cresceu com o PPC</h2>
+                    <p>Conheça a jornada inspiradora de Joana Silva, fundadora da 'Beleza Natural', e como a plataforma Páginas Pretas Classificados impulsionou seu negócio e sua visibilidade.</p>
+                    <span>Leia Mais</span>
+                </a>
+            </div>
+            <div class="article-preview">
+                <a href="artigo.html">
+                    <h2>Empreendedorismo Negro: Desafios e Oportunidades no Cenário Atual</h2>
+                    <p>Análise dos principais desafios enfrentados pelos empreendedores negros no Brasil e as oportunidades emergentes no mercado.</p>
+                    <span>Leia Mais</span>
+                </a>
+            </div>
+             <div class="article-preview">
+                <a href="artigo.html">
+                    <h2>A Importância da Representatividade no Mercado de Consumo</h2>
+                    <p>Descubra por que a representatividade importa e como ela influencia as decisões de compra dos consumidores modernos.</p>
+                    <span>Leia Mais</span>
+                </a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h4>Páginas Pretas</h4>
+                <a href="sobre.html">Sobre Nós</a>
+                <a href="blog.html">Blog</a>
+                <a href="contato.html">Contato</a>
+            </div>
+            <div class="footer-column">
+                <h4>Para Empreendedores</h4>
+                <a href="planos.html">Nossos Planos</a>
+                <a href="contato.html">Cadastre-se</a>
+            </div>
+            <div class="footer-column">
+                <h4>Para Empresas (B2B)</h4>
+                <a href="b2b.html">Parcerias</a>
+                <a href="contato.html">Agende uma Reunião</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Páginas Pretas Classificados. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
